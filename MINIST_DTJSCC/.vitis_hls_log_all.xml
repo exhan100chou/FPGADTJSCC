@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<vivadoHLSLog:LogRoot xmlns:vivadoHLSLog="www.xilinx.com/vivadoHLSLog">
+  <errorLogs>
+    <logs>
+      <synLog/>
+      <csimLog>
+        <logs message="ERROR: [SIM 211-100] 'csim_design' failed: compilation error(s)." projectName="MINIST_DTJSCC" solutionName="solution1" date="2025-02-24T10:04:56.709+0800"/>
+        <logs message="ERROR: [SIM 211-100] 'csim_design' failed: compilation error(s)." projectName="MINIST_DTJSCC" solutionName="solution1" date="2025-02-24T10:04:05.517+0800"/>
+        <logs message="ERROR: [SIM 211-100] 'csim_design' failed: compilation error(s)." projectName="MINIST_DTJSCC" solutionName="solution1" date="2025-02-24T10:02:47.458+0800"/>
+      </csimLog>
+    </logs>
+  </errorLogs>
+  <warningLogs>
+    <logs>
+      <synLog>
+        <logs message="WARNING: [RTGEN 206-101] Port 'DTJSCC/mm_q1' has no fanin or fanout and is left dangling.&#xD;&#xA;               Please use C simulation to confirm this function argument can be read from or written to." projectName="MINIST_DTJSCC" solutionName="solution1" date="2025-02-20T17:04:56.490+0800" type="Warning"/>
+        <logs message="WARNING: [RTGEN 206-101] Setting dangling out port 'DTJSCC/mm_d1' to 0." projectName="MINIST_DTJSCC" solutionName="solution1" date="2025-02-20T17:04:56.488+0800" type="Warning"/>
+        <logs message="WARNING: [RTGEN 206-101] Port 'DTJSCC/mm_d1' has no fanin or fanout and is left dangling.&#xD;&#xA;               Please use C simulation to confirm this function argument can be read from or written to." projectName="MINIST_DTJSCC" solutionName="solution1" date="2025-02-20T17:04:56.485+0800" type="Warning"/>
+        <logs message="WARNING: [RTGEN 206-101] Setting dangling out port 'DTJSCC/mm_we1' to 0." projectName="MINIST_DTJSCC" solutionName="solution1" date="2025-02-20T17:04:56.483+0800" type="Warning"/>
+        <logs message="WARNING: [RTGEN 206-101] Port 'DTJSCC/mm_we1' has no fanin or fanout and is left dangling.&#xD;&#xA;               Please use C simulation to confirm this function argument can be read from or written to." projectName="MINIST_DTJSCC" solutionName="solution1" date="2025-02-20T17:04:56.481+0800" type="Warning"/>
+        <logs message="WARNING: [RTGEN 206-101] Setting dangling out port 'DTJSCC/mm_ce1' to 0." projectName="MINIST_DTJSCC" solutionName="solution1" date="2025-02-20T17:04:56.479+0800" type="Warning"/>
+        <logs message="WARNING: [RTGEN 206-101] Port 'DTJSCC/mm_ce1' has no fanin or fanout and is left dangling.&#xD;&#xA;               Please use C simulation to confirm this function argument can be read from or written to." projectName="MINIST_DTJSCC" solutionName="solution1" date="2025-02-20T17:04:56.477+0800" type="Warning"/>
+        <logs message="WARNING: [RTGEN 206-101] Setting dangling out port 'DTJSCC/mm_address1' to 0." projectName="MINIST_DTJSCC" solutionName="solution1" date="2025-02-20T17:04:56.474+0800" type="Warning"/>
+      </synLog>
+      <csimLog/>
+    </logs>
+  </warningLogs>
+</vivadoHLSLog:LogRoot>
