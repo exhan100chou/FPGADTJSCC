@@ -1,0 +1,104 @@
+INFO: [HLS 200-10] Running 'E:/Vivado/Vitis_HLS/2023.2/bin/unwrapped/win64.o/vitis_hls.exe'
+INFO: [HLS 200-10] For user 'Sternenstaub' on host 'msi' (Windows NT_amd64 version 6.2) on Mon Feb 24 10:04:31 +0800 2025
+INFO: [HLS 200-10] In directory 'E:/HLS/MINIST_DTJSCC'
+INFO: [HLS 200-2053] The vitis_hls executable is being deprecated. Consider using vitis-run --mode hls --tcl
+Sourcing Tcl script 'E:/HLS/MINIST_DTJSCC/MINIST_DTJSCC/solution1/csim.tcl'
+INFO: [HLS 200-1510] Running: source E:/HLS/MINIST_DTJSCC/MINIST_DTJSCC/solution1/csim.tcl
+INFO: [HLS 200-1510] Running: open_project MINIST_DTJSCC 
+INFO: [HLS 200-10] Opening project 'E:/HLS/MINIST_DTJSCC/MINIST_DTJSCC'.
+INFO: [HLS 200-1510] Running: set_top DTJSCC 
+INFO: [HLS 200-1510] Running: add_files DDR_write.cpp 
+INFO: [HLS 200-10] Adding design file 'DDR_write.cpp' to the project
+INFO: [HLS 200-1510] Running: add_files DTJSCC.cpp 
+INFO: [HLS 200-10] Adding design file 'DTJSCC.cpp' to the project
+INFO: [HLS 200-1510] Running: add_files Function.cpp 
+INFO: [HLS 200-10] Adding design file 'Function.cpp' to the project
+INFO: [HLS 200-1510] Running: add_files Test_image.h 
+INFO: [HLS 200-10] Adding design file 'Test_image.h' to the project
+INFO: [HLS 200-1510] Running: add_files decoder_0_bias.h 
+INFO: [HLS 200-10] Adding design file 'decoder_0_bias.h' to the project
+INFO: [HLS 200-1510] Running: add_files decoder_0_weight.h 
+INFO: [HLS 200-10] Adding design file 'decoder_0_weight.h' to the project
+INFO: [HLS 200-1510] Running: add_files decoder_2_bias.h 
+INFO: [HLS 200-10] Adding design file 'decoder_2_bias.h' to the project
+INFO: [HLS 200-1510] Running: add_files decoder_2_weight.h 
+INFO: [HLS 200-10] Adding design file 'decoder_2_weight.h' to the project
+INFO: [HLS 200-1510] Running: add_files decoder_4_bias.h 
+INFO: [HLS 200-10] Adding design file 'decoder_4_bias.h' to the project
+INFO: [HLS 200-1510] Running: add_files decoder_4_weight.h 
+INFO: [HLS 200-10] Adding design file 'decoder_4_weight.h' to the project
+INFO: [HLS 200-1510] Running: add_files encoder_1_bias.h 
+INFO: [HLS 200-10] Adding design file 'encoder_1_bias.h' to the project
+INFO: [HLS 200-1510] Running: add_files encoder_1_weight.h 
+INFO: [HLS 200-10] Adding design file 'encoder_1_weight.h' to the project
+INFO: [HLS 200-1510] Running: add_files param.h 
+INFO: [HLS 200-10] Adding design file 'param.h' to the project
+INFO: [HLS 200-1510] Running: add_files sampler_embedding.h 
+INFO: [HLS 200-10] Adding design file 'sampler_embedding.h' to the project
+INFO: [HLS 200-1510] Running: add_files -tb TestBench.cpp -cflags -Wno-unknown-pragmas 
+INFO: [HLS 200-10] Adding test bench file 'TestBench.cpp' to the project
+INFO: [HLS 200-1510] Running: add_files -tb a.h -cflags -Wno-unknown-pragmas 
+INFO: [HLS 200-10] Adding test bench file 'a.h' to the project
+INFO: [HLS 200-1510] Running: open_solution solution1 -flow_target vivado 
+INFO: [HLS 200-10] Opening solution 'E:/HLS/MINIST_DTJSCC/MINIST_DTJSCC/solution1'.
+INFO: [SYN 201-201] Setting up clock 'default' with a period of 10ns.
+INFO: [HLS 200-1611] Setting target device to 'xcvp1802-lsvc4072-1LHP-i-L'
+INFO: [HLS 200-1505] Using flow_target 'vivado'
+Resolution: For help on HLS 200-1505 see docs.xilinx.com/access/sources/dita/topic?Doc_Version=2023.2%20English&url=ug1448-hls-guidance&resourceid=200-1505.html
+INFO: [HLS 200-1510] Running: set_part xcvp1802-lsvc4072-1LHP-i-L 
+INFO: [HLS 200-1510] Running: create_clock -period 10 -name default 
+INFO: [HLS 200-1510] Running: source ./MINIST_DTJSCC/solution1/directives.tcl
+INFO: [HLS 200-1510] Running: set_directive_top -name DTJSCC DTJSCC 
+INFO: [HLS 200-1510] Running: csim_design -quiet 
+INFO: [SIM 211-2] *************** CSIM start ***************
+INFO: [SIM 211-4] CSIM will launch GCC as the compiler.
+INFO: [HLS 200-2036] Building debug C Simulation binaries
+   Compiling ../../../../TestBench.cpp in debug mode
+csim.mk:79: recipe for target 'obj/TestBench.o' failed
+In file included from E:/Vivado/Vitis_HLS/2023.2/include/floating_point_v7_1_bitacc_cmodel.h:150:0,
+                 from E:/Vivado/Vitis_HLS/2023.2/include/hls_fpo.h:140,
+                 from E:/Vivado/Vitis_HLS/2023.2/include/etc/hls_half_fpo.h:19,
+                 from E:/Vivado/Vitis_HLS/2023.2/include/hls_half.h:26,
+                 from E:/Vivado/Vitis_HLS/2023.2/include/etc/ap_private.h:52,
+                 from E:/Vivado/Vitis_HLS/2023.2/include/etc/ap_common.h:666,
+                 from E:/Vivado/Vitis_HLS/2023.2/include/ap_fixed.h:9,
+                 from ../../../../param.h:7,
+                 from ../../../../TestBench.cpp:1:
+E:/Vivado/Vitis_HLS/2023.2/include/gmp.h:58:0: warning: "__GMP_LIBGMP_DLL" redefined
+ #define __GMP_LIBGMP_DLL  0
+ 
+In file included from E:/Vivado/Vitis_HLS/2023.2/include/hls_fpo.h:140:0,
+                 from E:/Vivado/Vitis_HLS/2023.2/include/etc/hls_half_fpo.h:19,
+                 from E:/Vivado/Vitis_HLS/2023.2/include/hls_half.h:26,
+                 from E:/Vivado/Vitis_HLS/2023.2/include/etc/ap_private.h:52,
+                 from E:/Vivado/Vitis_HLS/2023.2/include/etc/ap_common.h:666,
+                 from E:/Vivado/Vitis_HLS/2023.2/include/ap_fixed.h:9,
+                 from ../../../../param.h:7,
+                 from ../../../../TestBench.cpp:1:
+E:/Vivado/Vitis_HLS/2023.2/include/floating_point_v7_1_bitacc_cmodel.h:142:0: note: this is the location of the previous definition
+ #define __GMP_LIBGMP_DLL 1
+ 
+../../../../TestBench.cpp: In function 'int main()':
+../../../../TestBench.cpp:49:1: internal compiler error: Segmentation fault
+ }
+ ^
+libbacktrace could not find executable to open
+Please submit a full bug report,
+with preprocessed source if appropriate.
+See <https://sourceforge.net/projects/msys2> for instructions.
+make: *** [obj/TestBench.o] Error 1
+ERROR: [SIM 211-100] 'csim_design' failed: compilation error(s).
+INFO: [SIM 211-3] *************** CSIM finish ***************
+INFO: [HLS 200-111] Finished Command csim_design CPU user time: 0 seconds. CPU system time: 0 seconds. Elapsed time: 23.019 seconds; current allocated memory: 0.328 MB.
+4
+    while executing
+"source E:/HLS/MINIST_DTJSCC/MINIST_DTJSCC/solution1/csim.tcl"
+    invoked from within
+"hls::main E:/HLS/MINIST_DTJSCC/MINIST_DTJSCC/solution1/csim.tcl"
+    ("uplevel" body line 1)
+    invoked from within
+"uplevel 1 hls::main {*}$newargs"
+    (procedure "hls_proc" line 16)
+    invoked from within
+"hls_proc [info nameofexecutable] $argv"
+INFO: [HLS 200-112] Total CPU user time: 1 seconds. Total CPU system time: 0 seconds. Total elapsed time: 25.176 seconds; peak allocated memory: 211.445 MB.
