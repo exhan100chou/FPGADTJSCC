@@ -1,0 +1,17 @@
+10:09:10 INFO  : updated workspace path: E:\HLS\MINIST_DTJSCC\MINIST_DTJSCC
+10:09:10 INFO  : created .gitignore file for the project E:\HLS\MINIST_DTJSCC\MINIST_DTJSCC
+10:09:10 INFO  : updated workspace path: E:\HLS\MINIST_DTJSCC\MINIST_DTJSCC
+10:09:12 INFO  : Successfully created repository data at C:\Users\STERNE~1\AppData\Local\Temp\rigel_lopper_Sternenstaub16684242482560072126
+10:09:12 INFO  : cmd.exe, /C, E:\Vivado\Vitis\2023.2\tps\win64\lopper-1.1.0\env\Scripts\activate.bat && python E:\Vivado\Vitis\2023.2\data\embeddedsw\scripts\pyesw\\get_template_data.py -d C:\Users\STERNE~1\AppData\Local\Temp\rigel_lopper_Sternenstaub11245342914297199650 -r C:\Users\STERNE~1\AppData\Local\Temp\rigel_lopper_Sternenstaub16684242482560072126\.repo.yaml && E:\Vivado\Vitis\2023.2\tps\win64\lopper-1.1.0\env\Scripts\deactivate.bat
+10:09:13 INFO  : Embedded Template List generated successfully
+10:09:13 INFO  : cmd.exe, /C, E:\Vivado\Vitis\2023.2\tps\win64\lopper-1.1.0\env\Scripts\activate.bat && python E:\Vivado\Vitis\2023.2\data\embeddedsw\scripts\pyesw\\repo.py -st   E:\Vivado\Vitis\2023.2\data\embeddedsw && E:\Vivado\Vitis\2023.2\tps\win64\lopper-1.1.0\env\Scripts\deactivate.bat
+10:09:15 INFO  : Successfully created repository data at E:\HLS\MINIST_DTJSCC\MINIST_DTJSCC
+10:09:15 INFO  : cmd.exe, /C, E:\Vivado\Vitis\2023.2\tps\win64\lopper-1.1.0\env\Scripts\activate.bat && python E:\Vivado\Vitis\2023.2\data\embeddedsw\scripts\pyesw\\get_template_data.py -d C:\Users\STERNE~1\AppData\Local\Temp\rigel_lopper_Sternenstaub12822107335145321465 -r E:\HLS\MINIST_DTJSCC\MINIST_DTJSCC\.repo.yaml && E:\Vivado\Vitis\2023.2\tps\win64\lopper-1.1.0\env\Scripts\deactivate.bat
+10:09:16 INFO  : Embedded Template List generated successfully
+10:09:16 INFO  : cmd.exe, /C, E:\Vivado\Vitis\2023.2\tps\win64\lopper-1.1.0\env\Scripts\activate.bat && python E:\Vivado\Vitis\2023.2\data\embeddedsw\scripts\pyesw\\get_template_data.py -d C:\Users\STERNE~1\AppData\Local\Temp\rigel_lopper_Sternenstaub18401991201742461211 -r E:\HLS\MINIST_DTJSCC\MINIST_DTJSCC\.repo.yaml && E:\Vivado\Vitis\2023.2\tps\win64\lopper-1.1.0\env\Scripts\deactivate.bat
+10:09:17 INFO  : Embedded Template List generated successfully
+10:10:00 INFO  : connection terminated
+10:10:00 INFO  : connection terminated
+10:10:00 INFO  : scheduling shutdown timer for 2 seconds ...
+10:10:02 INFO  : Terminating Vitis C++ Server
+10:10:02 INFO  : Vitis C++ Server terminated
